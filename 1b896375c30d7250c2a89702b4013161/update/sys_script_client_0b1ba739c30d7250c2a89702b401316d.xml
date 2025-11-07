@@ -13,7 +13,7 @@
         <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
   var saveAndClose = true;
  //Type appropriate comment here, and begin script below
- 
+ g_form.addInfoMessage('hello world aaaaaaaaaaaaaaaaa');
  callback(saveAndClose); 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b1ba739c30d7250c2a89702b401316d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>CLIENT SCRIPT 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="GBS" source="x_431699_gbs">1b896375c30d7250c2a89702b4013161</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="GBS">1b896375c30d7250c2a89702b4013161</sys_scope>
         <sys_update_name>sys_script_client_0b1ba739c30d7250c2a89702b401316d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-07 13:40:55</sys_updated_on>
+        <sys_updated_on>2025-11-07 13:47:14</sys_updated_on>
         <table>incident</table>
         <type>onCellEdit</type>
         <ui_type>0</ui_type>
